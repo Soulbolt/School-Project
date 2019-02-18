@@ -1,0 +1,219 @@
+/* Color Palette
+#2B2D42 - Dark Blue
+#8D99AE - Light Blue
+#EDF2F4 - Blue/White
+#EF233C - Red
+*/
+
+/* Global styles
+-------------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #2B2D42;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 65px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*carouselbox
+-------------------------*/
+.carouselbox {
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  width: 220px;
+  position: relative;
+  margin: 1em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow: hidden;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+.active {
+  height: 220px;
+  width: 325px;
+}
+.active li {
+  position: absolute;
+  top: 3px;
+}
+.active li.current {
+  top: 3px;
+}
+.active .buttons {
+  padding: 5px 0;
+  background: #eee;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.carouselbox button {
+  border: none;
+  display: none;
+}
+.active button {
+  display: block;
+}
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}
+
+/* Section Details
+-------------------------*/
+.samples {
+  background: #8D99AE;
+}
+h3 ~ p {
+  margin: 0;
+}
+.section-description {
+  margin-bottom: 25px;
+}
+.section-description p:first-of-type {
+  margin-top: 0;
+}
+
+/* Prices
+-------------------------*/
+.Prices {
+  background: linear-gradient(rgba(141, 153, 174, 0.8),rgba(141, 153, 174, 0.5));
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+/* products
+-------------------------*/
+caption {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
+table {
+  margin: auto;
+  border: 5px solid #62c4bb;
+  width: 600px;
+  border-spacing: 0;
+}
+.altrow {
+  background-color: #321444;
+}
+.altrow2 {
+  background-color: #033973;
+}
+td, th {
+  border-style: none;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+}
+input[type="submit"] {
+  margin-left: 110px;
+}
+/*Check out Information
+-------------------------*/
+fieldset {
+  width: 500px;
+  border: 2px ridge;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+legend {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+}
+label {
+  padding-left: 10px;
+}
