@@ -1,5 +1,6 @@
-carousel = (function(){
-  var box = document.querySelector('.carouselbox active');
+window.onload = function () {
+  carousel = (function(){
+  var box = document.querySelector('.carouselbox');
   var prev = box.querySelector('.prev');
   var next = box.querySelector('.next');
   var items = box.querySelectorAll('.content li');
@@ -29,3 +30,4 @@ carousel = (function(){
   });
   navigate(0);
 })();
+};
